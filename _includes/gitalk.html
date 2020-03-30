@@ -1,0 +1,19 @@
+<!-- Link Gitalk 的支持文件  -->
+<link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+<script src="https://unpkg.com/gitalk@latest/dist/gitalk.min.js"></script> 
+<script type="text/javascript" src="/assets/js/md5.min.js"></script>
+<div id="gitalk-container"></div>     
+<script type="text/javascript">
+    var gitalk = new Gitalk({
+ 
+        clientID: 'abcfca053b1a9c4e35c6',
+        clientSecret: '4f227cdc6348c69e35072b7dad646f58c25b1bec',
+        repo: 'blog-comments',
+        owner: 'Soysauce007',
+        admin: ['Soysauce007'],
+        id: location.pathname,
+        distractionFreeMode: false
+    });
+    gitalk.render('gitalk-container');
+</script> 
+<!-- Gitalk end -->
