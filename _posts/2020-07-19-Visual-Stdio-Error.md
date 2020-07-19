@@ -1,6 +1,6 @@
 ---
 layout:     post
-title: "打开Visual Studio 提示"无法下载许可证,请检查你的网络连接或代理设置
+title: "无法下载许可证,请检查你的网络连接或代理设置"
 subtitle:   " \"Visual Studio许可证过期\""
 date: 2020-07-19 20:15:01 +0800
 author:   "Yummy"
